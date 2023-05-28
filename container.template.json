@@ -3,7 +3,8 @@
       "app": {
         "image": "",
         "environment": {
-          "APP_ENV": "release"
+          "APP_ENV": "release",
+          "DATABASE_URL": "${{ secrets.DATABASE_URL }}"
         },
         "ports": {
           "3000": "HTTP"
