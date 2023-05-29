@@ -7,7 +7,6 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
-    
     <div className="grid h-screen place-items-center">
       <div className="w-[50%] text-center">
         <p className="text-xl text-indigo-900 m-5">Welcome to the best movies list</p>
