@@ -5,8 +5,6 @@ export const meta: V2_MetaFunction = () => {
   return [{ title: "Welcome" }];
 };
 
-
-
 export default function Index() {
   return (
     <div className="grid h-screen place-items-center">
